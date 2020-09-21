@@ -1,0 +1,8 @@
+The purpose of this application is to experiment with MPTT file management 
+and manage a database with DraggableMPTTAdmin.
+
+Requirements to Run this project are:
+lastest versions of Python (3.8), Django(3.1.1), Django-MPTT(0.11.0), 
+and all other files listed in poetry.lock file. 
+
+To install requirements, run 'poetry install' after cloning this repo.

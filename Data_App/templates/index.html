@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>data home page</h1>
+    <p>all the data entries in a simple list. admin panel works better</p>
+    <ul>
+        {% for item in data %}
+        <li>
+            {{item}}
+        </li>
+        {% endfor %}
+    </ul>
+    <span>add a new data entry <a href="/addpost/">here</a></span>
+</body>
+</html>
